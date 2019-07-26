@@ -125,5 +125,7 @@ def main():
     else:
         print('Programm mit {:d} Fehler(n) beeendet.\n'.format(error_count))
 
+    input() # Prevent window (in bundle) from closing.
+
 if __name__ == '__main__':
     main()
