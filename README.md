@@ -6,7 +6,7 @@ In der Freifunk-Firmware ab Version 5.0.5 aufwärts tritt seit 25.07.2019 ein Fe
 
 ## Ursache
 
-Grund hierfür ist eine Routine in ```/usr/lib/ddmesh/ddmesh-gate-check.sh```, die aufgrund einer Reihe von nicht mehr erreichbaren externen Servern keine Route mehr setzt.
+Grund hierfür ist eine Routine in ```/usr/lib/ddmesh/ddmesh-gate-check.sh```, die wegen einer Reihe von nicht mehr erreichbaren externen Servern keine Route mehr setzt. Leider hat Freifunk Dresden keine Möglichkeit, das Problem serverseitig zu beheben.
 
 Das hier zur Verfügung gestellte kleine Konfigurations-Skript „minsuccessfail-fix“ setzt in ```ddmesh-gate-check.sh``` den Schwellwert ```minSuccessful```, ab dem der Knoten sich online wähnt und wieder eine Verbindung aufbaut, nach unten und prüft im Anschluss die Verbindung.
 
