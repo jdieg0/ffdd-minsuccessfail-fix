@@ -3,7 +3,7 @@ ssh.log
 .vscode/settings.json
 build
 dist/minsuccessfail-fix/*
-!dist/minsuccessfail-fix/macos
+!dist/minsuccessfail-fix/minsuccessfail-fix_macos.zip
 __pycache__
 .DS_Store
 minsuccessfail-fix.spec
