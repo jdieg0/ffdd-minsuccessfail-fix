@@ -1,5 +1,7 @@
 # Fix für den minSuccessFail-Bug bei FFDD-Routern
 
+<a href="https://raw.githubusercontent.com/jdieg0/ffdd-minsuccessfail-fix/master/assets/images/minsuccessfail-fix_output.png"><img align="right" width="50%" src="assets/images/minsuccessfail-fix_output.png" title="Screenshot" alt="Screenshot der Ausgabe des Programms"></a>
+
 In der Freifunk-Firmware ab Version 5.0.5 aufwärts tritt seit 25.07.2019 ein Fehler auf, der dazu führt, dass der betroffene Knoten offline geht.
 
 ## Ursache
@@ -20,8 +22,6 @@ Das hier zur Verfügung gestellte kleine Konfigurations-Skript „minsuccessfail
 ## Varianten
 
 ### Bundles
-
-<a href="https://raw.githubusercontent.com/jdieg0/ffdd-minsuccessfail-fix/master/assets/images/minsuccessfail-fix_output.png"><img align="right" width="50%" src="assets/images/minsuccessfail-fix_output.png" title="Screenshot" alt="Screenshot der Ausgabe des Programms"></a>
 
 Die einfachste Möglichkeit besteht darin, ein fertiges Bundle zu verwenden. Es existieren ausführbare Bundles für folgende Systeme:
 
