@@ -6,24 +6,26 @@ In der Freifunk-Firmware ab Version 5.0.5 aufwärts tritt seit 25.07.2019 ein Fe
 
 Grund hierfür ist eine Routine in ```/usr/lib/ddmesh/ddmesh-gate-check.sh```, die aufgrund einer Reihe von nicht mehr erreichbaren externen Servern keine Route mehr setzt.
 
-Dieses Skript setzt den Schwellwert ```minSuccessful```, ab dem der Knoten sich online wähnt und wieder eine Verbindung aufbaut, nach unten und prüft im Anschluss die Verbindung.
+Das hier zur Verfügung gestellte kleine Konfigurations-Skript „minsuccessfail-fix“ setzt den Schwellwert ```minSuccessful```, ab dem der Knoten sich online wähnt und wieder eine Verbindung aufbaut, nach unten und prüft im Anschluss die Verbindung.
 
 ## Anleitung
 
 - Verbinde dich per WLAN mit deinem Router „FF no-inet [XXXX]“.
-- Starte das Programm (Möglichkeiten siehe unten). Die IP-Adresse ```100.64.0.1``` kannst du in der Regel mit ```Enter``` bestätigen.
+- Starte das Programm ([Varianten](#varianten) siehe unten). Die IP-Adresse ```100.64.0.1``` kannst du in der Regel mit ```Enter``` bestätigen.
 - Gib dein Router-Passwort ein. Nicht wundern, beim Tippen bewegt sich auf dem Bildschirm nichts.
 - Im Idealfall sollte das Programm durchlaufen und vermelden, dass wieder ein „Gateway gefunden“ wurde und sich ohne Fehlermeldung beenden.
 
+## Varianten
+
 ### Bundles
 
-Es existieren ausführbare Bundles für folgende Systeme:
+Die einfachste Möglichkeit besteht darin, ein fertiges Bundle zu verwenden. Es existieren ausführbare Bundles für folgende Systeme:
 
-- [macOS](https://github.com/jdieg0/ffdd-minsuccessfail-fix/raw/master/dist/minsuccessfail-fix/macos/minsuccessfail) (*getestet unter macOS Mojave 10.14.5*)
+- [macOS](https://github.com/jdieg0/ffdd-minsuccessfail-fix/raw/master/dist/minsuccessfail-fix/macos/minsuccessfail-fix) (*getestet unter macOS Mojave 10.14.5*)
 
 Screenshot:
 
-![Screenshot der Ausgabe des Programms](https://github.com/jdieg0/ffdd-minsuccessfail-fix/raw/master/assets/images/minsuccessfail-fix_output "Screenshot")
+![Screenshot der Ausgabe des Programms](https://raw.githubusercontent.com/jdieg0/ffdd-minsuccessfail-fix/master/assets/images/minsuccessfail-fix_output.png "Screenshot")
 
 ### Python
 
