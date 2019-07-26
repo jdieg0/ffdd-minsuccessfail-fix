@@ -21,13 +21,11 @@ Das hier zur Verfügung gestellte kleine Konfigurations-Skript „minsuccessfail
 
 ### Bundles
 
+<a href="https://raw.githubusercontent.com/jdieg0/ffdd-minsuccessfail-fix/master/assets/images/minsuccessfail-fix_output.png"><img align="right" width="50%" src="assets/images/minsuccessfail-fix_output.png" title="Screenshot" alt="Screenshot der Ausgabe des Programms"></a>
+
 Die einfachste Möglichkeit besteht darin, ein fertiges Bundle zu verwenden. Es existieren ausführbare Bundles für folgende Systeme:
 
 - [macOS](https://github.com/jdieg0/ffdd-minsuccessfail-fix/raw/master/dist/minsuccessfail-fix/macos/minsuccessfail-fix) (*getestet unter macOS Mojave 10.14.5*)
-
-Screenshot:
-
-<a href="https://raw.githubusercontent.com/jdieg0/ffdd-minsuccessfail-fix/master/assets/images/minsuccessfail-fix_output.png"><img align="right" width="50%" src="assets/images/minsuccessfail-fix_output.png" alt="Screenshot der Ausgabe des Programms"></a>
 
 ### Python
 
