@@ -27,7 +27,7 @@ Die einfachste Möglichkeit besteht darin, ein fertiges Bundle zu verwenden. Es 
 
 Screenshot:
 
-<a href="https://raw.githubusercontent.com/jdieg0/ffdd-minsuccessfail-fix/master/assets/images/minsuccessfail-fix_output.png"><img align="right" src="assets/images/minsuccessfail-fix_output.png" alt="Screenshot der Ausgabe des Programms"></a>
+<a href="https://raw.githubusercontent.com/jdieg0/ffdd-minsuccessfail-fix/master/assets/images/minsuccessfail-fix_output.png"><img align="right" width="50%" src="assets/images/minsuccessfail-fix_output.png" alt="Screenshot der Ausgabe des Programms"></a>
 
 ### Python
 
