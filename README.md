@@ -8,6 +8,8 @@ Grund hierfür ist eine Routine in ```/usr/lib/ddmesh/ddmesh-gate-check.sh```, d
 
 Das hier zur Verfügung gestellte kleine Konfigurations-Skript „minsuccessfail-fix“ setzt den Schwellwert ```minSuccessful```, ab dem der Knoten sich online wähnt und wieder eine Verbindung aufbaut, nach unten und prüft im Anschluss die Verbindung.
 
+(Weiterhin gibt auch die Möglichkeit, ein (anderes) Software-Paket (IPK) über die grafische Weboberfläche des Routers nachzuinstallieren. Infos dazu gibt es im [Wiki](https://wiki.freifunk-dresden.de/index.php/Firmware_Fix:_gateway-check)).
+
 ## Anleitung
 
 - Verbinde dich per WLAN mit deinem Router „FF no-inet [XXXX]“.
