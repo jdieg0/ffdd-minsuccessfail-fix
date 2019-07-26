@@ -80,4 +80,4 @@ Im Ordner ```dist/minsuccessfail-fix/``` findet sich dann je nach Betriebssystem
 
 ## Kontakt und Fragen
 
-[Diego](mailto:diego@freifunk-dresden.de?cc=info@freifunk-dresden.de&subject=minSuccesFail-fix])
+[Diego](mailto:diego@freifunk-dresden.de?cc=info@freifunk-dresden.de&subject=minSuccesFail-fix)
