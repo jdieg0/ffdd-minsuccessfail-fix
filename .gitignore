@@ -1,3 +1,9 @@
 venv
 ssh.log
 .vscode/settings.json
+build
+dist/minsuccessfail/macos/*
+!dist/minsuccessfail/macos/minsuccessfail
+minsuccessfail.spec
+__pycache__
+.DS_Store
