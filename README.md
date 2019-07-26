@@ -6,7 +6,7 @@ In der Freifunk-Firmware ab Version 5.0.5 aufwärts tritt seit 25.07.2019 ein Fe
 
 Grund hierfür ist eine Routine in ```/usr/lib/ddmesh/ddmesh-gate-check.sh```, die aufgrund einer Reihe von nicht mehr erreichbaren externen Servern keine Route mehr setzt.
 
-Das hier zur Verfügung gestellte kleine Konfigurations-Skript „minsuccessfail-fix“ setzt den Schwellwert ```minSuccessful```, ab dem der Knoten sich online wähnt und wieder eine Verbindung aufbaut, nach unten und prüft im Anschluss die Verbindung.
+Das hier zur Verfügung gestellte kleine Konfigurations-Skript „minsuccessfail-fix“ setzt in ```ddmesh-gate-check.sh``` den Schwellwert ```minSuccessful```, ab dem der Knoten sich online wähnt und wieder eine Verbindung aufbaut, nach unten und prüft im Anschluss die Verbindung.
 
 (Weiterhin gibt auch die Möglichkeit, ein (anderes) Software-Paket (IPK) über die grafische Weboberfläche des Routers nachzuinstallieren. Infos dazu gibt es im [Wiki](https://wiki.freifunk-dresden.de/index.php/Firmware_Fix:_gateway-check)).
 
@@ -15,7 +15,7 @@ Das hier zur Verfügung gestellte kleine Konfigurations-Skript „minsuccessfail
 - Verbinde dich per WLAN mit deinem Router „FF no-inet [XXXX]“.
 - Starte das Programm ([Varianten](#varianten) siehe unten). Die IP-Adresse ```100.64.0.1``` kannst du in der Regel mit ```Enter``` bestätigen.
 - Gib dein Router-Passwort ein. Nicht wundern, beim Tippen bewegt sich auf dem Bildschirm nichts.
-- Im Idealfall sollte das Programm durchlaufen und vermelden, dass wieder ein „Gateway gefunden“ wurde und sich ohne Fehlermeldung beenden.
+- Im Idealfall sollte das Programm durchlaufen und vermelden, dass wieder ein „Gateway gefunden“ wurde und sich ohne Fehlermeldung selbst beenden.
 
 ## Varianten
 
@@ -27,7 +27,7 @@ Die einfachste Möglichkeit besteht darin, ein fertiges Bundle zu verwenden. Es 
 
 Screenshot:
 
-![Screenshot der Ausgabe des Programms](https://raw.githubusercontent.com/jdieg0/ffdd-minsuccessfail-fix/master/assets/images/minsuccessfail-fix_output.png "Screenshot")
+![Screenshot der Ausgabe des Programms](https://raw.githubusercontent.com/jdieg0/ffdd-minsuccessfail-fix/master/assets/images/minsuccessfail-fix_output.png =512x "Screenshot")
 
 ### Python
 
