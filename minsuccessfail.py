@@ -81,7 +81,7 @@ def main():
         try:
             ssh.connect(server, username=username, password=password, timeout=10)
             authenticated = True
-        except: #AuthenticationException:
+        except: #AuthenticationException: # or timeout
             print('\nVerbindung konnte nicht hergestellt werden. Bitte überprüfe deine Eingaben und ob du mit deinem Freifunk-Router verbunden bist.')
 
     # Apply fix
