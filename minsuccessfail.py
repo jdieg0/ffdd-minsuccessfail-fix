@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 # Debugging
 from IPython import embed
 
@@ -80,7 +82,7 @@ def main():
             ssh.connect(server, username=username, password=password, timeout=10)
             authenticated = True
         except: #AuthenticationException:
-            print('\nVerbindung konnte nicht hergestellt werden. Bitte überprüfe deine Eingaben.')
+            print('\nVerbindung konnte nicht hergestellt werden. Bitte überprüfe deine Eingaben und ob du mit deinem Freifunk-Router verbunden bist.')
 
     # Apply fix
     print('Aktualisiere Konfiguration...')
@@ -96,7 +98,7 @@ def main():
         print()
     else:
         # Run gateway check
-        print('Prüfe Verbindung (dies kann etwas dauern)...')
+        print('Prüfe Verbindung zum Freifunk-Netz (dies kann etwas dauern)...')
         commands = '; '.join(CHECKS)
         ssh_stdin, ssh_stdout, ssh_stderr = ssh.exec_command(commands)
         
@@ -108,7 +110,6 @@ def main():
 
         out_list = ssh_stdout.readlines()
         out = ''.join(out_list)
-
         if 'no gateway found' in out:
             print('\nFEHLER: Kein Gateway gefunden.')
             error_count += 1
