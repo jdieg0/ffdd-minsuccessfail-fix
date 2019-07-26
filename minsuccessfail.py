@@ -113,7 +113,7 @@ def main():
             print('\nFEHLER: Kein Gateway gefunden.')
             error_count += 1
         else:
-            print('\nGateway gefunden. Dein Router ist in kürze wieder online! :)')
+            print('\nGateway gefunden. Dein Router ist in Kürze wieder online! :)')
 
     # Disconnect
     print('\nBeende Verbindung zum Router...')
