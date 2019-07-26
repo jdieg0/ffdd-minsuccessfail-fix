@@ -25,7 +25,7 @@ Das hier zur Verfügung gestellte kleine Konfigurations-Skript „minsuccessfail
 
 Die einfachste Möglichkeit besteht darin, ein fertiges Bundle zu verwenden. Es existieren ausführbare Bundles für folgende Systeme:
 
-- [macOS](dist/minsuccessfail-fix/minsuccessfail-fix_macos.zip) (*getestet unter macOS Mojave 10.14.5*)
+- [macOS](raw/master/dist/minsuccessfail-fix/minsuccessfail-fix_macos.zip) (*getestet unter macOS Mojave 10.14.5*)
 
 ### Python
 
