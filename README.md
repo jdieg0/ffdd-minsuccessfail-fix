@@ -10,7 +10,7 @@ Grund hierfür ist eine Routine in ```/usr/lib/ddmesh/ddmesh-gate-check.sh```, d
 
 Das hier zur Verfügung gestellte kleine Konfigurations-Skript „minsuccessfail-fix“ setzt in ```ddmesh-gate-check.sh``` den Schwellwert ```minSuccessful```, ab dem der Knoten sich online wähnt und wieder eine Verbindung aufbaut, nach unten und prüft im Anschluss die Verbindung.
 
-(Weiterhin gibt auch die Möglichkeit, ein (anderes) Software-Paket (IPK) über die grafische Weboberfläche des Routers nachzuinstallieren. Infos dazu gibt es im [Wiki](https://wiki.freifunk-dresden.de/index.php/Firmware_Fix:_gateway-check)).
+(Weiterhin gibt es auch die Möglichkeit, ein (anderes) Software-Paket (IPK) über die grafische Weboberfläche des Routers nachzuinstallieren. Infos dazu gibt es im [Wiki](https://wiki.freifunk-dresden.de/index.php/Firmware_Fix:_gateway-check)).
 
 ## Anleitung
 
@@ -71,7 +71,7 @@ Bundles für das eigene Betriebssystem können mittels [PyInstaller](https://pyi
     $ pip install pyinstaller
     $ pyinstaller minsuccessfail-fix.py
 
-Unter ```dist/minsuccessfail-fix/``` findet sich dann je nach Betriebssystem die ausführbare Datei ```minsuccessfail-fix``` (macOS, Linux) oder ```minsuccessfail-fix.exe``` (Windows).
+Im Ordner ```dist/minsuccessfail-fix/``` findet sich dann je nach Betriebssystem die ausführbare Datei ```minsuccessfail-fix``` (macOS, Linux) oder ```minsuccessfail-fix.exe``` (Windows).
 
 ## Weiterführende Infos
 
@@ -80,4 +80,4 @@ Unter ```dist/minsuccessfail-fix/``` findet sich dann je nach Betriebssystem die
 
 ## Kontakt und Fragen
 
-[Diego](mailto:diego@freifunk-dresden.de)
+[Diego](mailto:diego@freifunk-dresden.de?cc=info@freifunk-dresden.de&subject=minSuccesFail-fix])
