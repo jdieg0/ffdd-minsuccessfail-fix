@@ -4,7 +4,10 @@
 from IPython import embed
 
 # Input
-import readline
+try:
+  import readline
+except ImportError:
+  import pyreadline as readline # Readline for Windows; https://stackoverflow.com/a/6024996/7192373.
 from getpass import getpass
 
 # SSH
